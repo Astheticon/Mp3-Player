@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string-array name="exo_controls_playback_speeds">
-    <item>0,25x</item>
-    <item>0,5x</item>
-    <item>0,75x</item>
-    <item>Normalna</item>
-    <item>1,25x</item>
-    <item>1,5x</item>
-    <item>2x</item>
-  </string-array>
-    <plurals name="exo_controls_fastforward_by_amount_description">
-    <item quantity="one">Przewiń do przodu o %d sekundę</item>
-    <item quantity="few">Przewiń do przodu o %d sekundy</item>
-    <item quantity="many">Przewiń do przodu o %d sekund</item>
-    <item quantity="other">Przewiń do przodu o %d sekundy</item>
-  </plurals>
-    <plurals name="exo_controls_rewind_by_amount_description">
-    <item quantity="one">Przewiń do tyłu o %d sekundę</item>
-    <item quantity="few">Przewiń do tyłu o %d sekundy</item>
-    <item quantity="many">Przewiń do tyłu o %d sekund</item>
-    <item quantity="other">Przewiń do tyłu o %d sekundy</item>
-  </plurals>
-    <string name="authentication_required">Wymagane uwierzytelnienie</string>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Autouzupełnianie"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Autouzupełnianie"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Odbierz"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Wideo"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Odrzuć"</string>
@@ -35,30 +15,23 @@
     <string name="default_notification_channel_name">Odtwarzam teraz</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Wyskakujące okienko"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Menu"</string>
-    <string name="exo_controls_cc_disabled_description">Włącz napisy</string>
-    <string name="exo_controls_cc_enabled_description">Wyłącz napisy</string>
-    <string name="exo_controls_fastforward_description">Przewiń do przodu</string>
-    <string name="exo_controls_fullscreen_enter_description">Otwórz pełny ekran</string>
-    <string name="exo_controls_fullscreen_exit_description">Zamknij pełny ekran</string>
-    <string name="exo_controls_hide">Ukryj elementy sterujące odtwarzacza</string>
-    <string name="exo_controls_next_description">Następny</string>
-    <string name="exo_controls_overflow_hide_description">Ukryj ustawienia dodatkowe</string>
-    <string name="exo_controls_overflow_show_description">Pokaż ustawienia dodatkowe</string>
-    <string name="exo_controls_pause_description">Wstrzymaj</string>
-    <string name="exo_controls_play_description">Odtwórz</string>
-    <string name="exo_controls_playback_speed">Szybkość</string>
-    <string name="exo_controls_previous_description">Poprzedni</string>
-    <string name="exo_controls_repeat_all_description">Bieżący tryb: Powtórz wszystkie. Przełącz na tryb powtarzania.</string>
-    <string name="exo_controls_repeat_off_description">Bieżący tryb: Nie powtarzaj. Przełącz na tryb powtarzania.</string>
-    <string name="exo_controls_repeat_one_description">Bieżący tryb: Powtórz jeden. Przełącz na tryb powtarzania.</string>
-    <string name="exo_controls_rewind_description">Przewiń do tyłu</string>
-    <string name="exo_controls_seek_bar_description">Postęp odtwarzania</string>
-    <string name="exo_controls_settings_description">Ustawienia</string>
-    <string name="exo_controls_show">Pokaż elementy sterujące odtwarzacza</string>
-    <string name="exo_controls_shuffle_off_description">Włącz tryb odtwarzania losowego</string>
-    <string name="exo_controls_shuffle_on_description">Wyłącz tryb odtwarzania losowego</string>
-    <string name="exo_controls_stop_description">Zatrzymaj</string>
-    <string name="exo_controls_vr_description">Tryb VR</string>
+    <string name="error_message_authentication_expired">Zaloguj się, aby używać tej aplikacji</string>
+    <string name="error_message_bad_value">Nieprawidłowe dane wejściowe</string>
+    <string name="error_message_concurrent_stream_limit">Słuchasz na zbyt wielu urządzeniach</string>
+    <string name="error_message_content_already_playing">Te materiały są już odtwarzane</string>
+    <string name="error_message_disconnected">Odłączono od aplikacji do multimediów</string>
+    <string name="error_message_end_of_playlist">Nie ma już nic w kolejce</string>
+    <string name="error_message_fallback">Coś poszło nie tak. Spróbuj później.</string>
+    <string name="error_message_info_cancelled">Nie udało się dokończyć. Spróbuj ponownie.</string>
+    <string name="error_message_invalid_state">Teraz nie można tego zrobić</string>
+    <string name="error_message_io">Błąd danych wejściowych/wyjściowych</string>
+    <string name="error_message_not_available_in_region">Te materiały są niedostępne w tym regionie</string>
+    <string name="error_message_not_supported">Ta aplikacja nie ma takiej funkcji</string>
+    <string name="error_message_parental_control_restricted">Te materiały są zablokowane</string>
+    <string name="error_message_permission_denied">Odmowa dostępu</string>
+    <string name="error_message_premium_account_required">Wymagany jest dostęp na poziomie premium</string>
+    <string name="error_message_setup_required">Wymagana konfiguracja</string>
+    <string name="error_message_skip_limit_reached">Nie można pominąć większej liczby utworów</string>
     <string name="exo_download_completed">Zakończono pobieranie</string>
     <string name="exo_download_description">Pobierz</string>
     <string name="exo_download_downloading">Pobieram</string>
@@ -68,24 +41,6 @@
     <string name="exo_download_paused_for_network">Pobierane pliki oczekują na sieć</string>
     <string name="exo_download_paused_for_wifi">Pobierane pliki oczekują na Wi-Fi</string>
     <string name="exo_download_removing">Usuwam pobrane</string>
-    <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
-    <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
-    <string name="exo_track_role_alternate">Wersja alternatywna</string>
-    <string name="exo_track_role_closed_captions">Napisy</string>
-    <string name="exo_track_role_commentary">Komentarz</string>
-    <string name="exo_track_role_supplementary">Materiały dodatkowe</string>
-    <string name="exo_track_selection_auto">Automatycznie</string>
-    <string name="exo_track_selection_none">Brak</string>
-    <string name="exo_track_selection_title_audio">Dźwięk</string>
-    <string name="exo_track_selection_title_text">Tekst</string>
-    <string name="exo_track_selection_title_video">Film</string>
-    <string name="exo_track_stereo">Stereo</string>
-    <string name="exo_track_surround">Dźwięk przestrzenny</string>
-    <string name="exo_track_surround_5_point_1">System dźwięku przestrzennego 5.1</string>
-    <string name="exo_track_surround_7_point_1">System dźwięku przestrzennego 7.1</string>
-    <string name="exo_track_unknown">Nieznany</string>
     <string msgid="6827826412747255547" name="in_progress">"W toku"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Częściowo zaznaczone"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Zwiń planszę dolną"</string>
@@ -127,10 +82,16 @@
     <string msgid="7617233117134790350" name="m3c_dialog">"Okno"</string>
     <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"Zwinięte"</string>
     <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"Rozwinięte"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Pokaż lub ukryj menu"</string>
+    <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Zwiń pasek narzędzi"</string>
+    <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Rozwiń pasek narzędzi"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"Szukaj"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Zamknij"</string>
+    <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Alert"</string>
     <string msgid="7655536806087401899" name="m3c_suggestions_available">"Sugestie znajdziesz poniżej"</string>
+    <string msgid="409352516511718051" name="m3c_time_input_dialog_title">"Wpisz godzinę"</string>
     <string msgid="2786685010796619560" name="m3c_time_picker_am">"AM"</string>
+    <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Wybierz godzinę"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Godzina"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Wybierz godzinę"</string>
@@ -142,8 +103,12 @@
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"aby wpisać minuty"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Wybierz AM lub PM"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
+    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Aby podać czas, włącz tryb wprowadzania tekstu"</string>
+    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Aby podać czas, włącz tryb zegara"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Pokaż etykietkę"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Etykietka"</string>
+    <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Zamknij kolumnę"</string>
+    <string msgid="8350283435461615411" name="m3c_wide_navigation_rail_pane_title">"Kolumna nawigacji"</string>
     <string name="media3_controls_pause_description">Wstrzymaj</string>
     <string name="media3_controls_play_description">Odtwórz</string>
     <string name="media3_controls_seek_back_description">Przewiń do tyłu</string>
@@ -152,11 +117,13 @@
     <string name="media3_controls_seek_to_previous_description">Przewiń do poprzedniego elementu</string>
     <string msgid="542007171693138492" name="navigation_menu">"Menu nawigacyjne"</string>
     <string msgid="6610465462668679431" name="not_selected">"Nie wybrano"</string>
-    <string msgid="875452955155264703" name="off">"Wyłączono"</string>
-    <string msgid="8655164131929253426" name="on">"Włączono"</string>
     <string msgid="5941395253238309765" name="range_end">"Koniec zakresu"</string>
     <string msgid="7097486360902471446" name="range_start">"Początek zakresu"</string>
     <string msgid="6043586758067023" name="selected">"Wybrano"</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Alert"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Puste"</string>
+    <string msgid="5834637030682409883" name="state_off">"Wyłączono"</string>
+    <string msgid="1490883874751719580" name="state_on">"Włączono"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="2561197295334830845" name="switch_role">"Przełącznik"</string>
     <string msgid="1672349317127674378" name="tab">"Karta"</string>

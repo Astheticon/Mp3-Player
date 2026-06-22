@@ -4,7 +4,7 @@
     "type": "LINKED_RESOURCES_BINARY_FORMAT",
     "kind": "Directory"
   },
-  "applicationId": "com.example.musicplayer",
+  "applicationId": "com.astheticon.mp3player",
   "variantName": "debug",
   "elements": [
     {
